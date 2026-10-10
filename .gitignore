@@ -1,0 +1,21 @@
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Raw and generated EEG data
+data/raw/
+data/interim/
+data/processed/
+
+# Trained model files
+*.pt
+*.pth
+*.ckpt
+
+# Notebook and macOS files
+.ipynb_checkpoints/
+.DS_Store
